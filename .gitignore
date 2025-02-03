@@ -11,24 +11,12 @@ env/
 *.venv
 
 # Django / Python cache files
-db.sqlite3
-*.sqlite3
-*.log
-*.pot
-*.pyc
-*.pyo
-*.pyd
-Pipfile.lock
-*.DS_Store
+
 
 # JWT Private Keys & Secret Keys
-.env
-*.env
-config/settings/.env
-secrets.json
 
 # Ignore JWT migration files if necessary
-migrations/
+
 
 # IDE / Editor specific files
 .idea/
@@ -36,10 +24,3 @@ migrations/
 *.swp
 *.swo
 
-# Node / Frontend
-node_modules/
-package-lock.json
-yarn.lock
-
-# Docker & Deployment
-docker-compose.override.yml
