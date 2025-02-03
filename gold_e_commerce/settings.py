@@ -33,21 +33,23 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_ORIGINS = [
      "http://localhost:5173", 
      "127.0.0.1"
-     'https://:b7e1-171-76-87-23.ngrok-free',
-     'http://159.89.200.152'
+
+     'http://159.89.200.152',
+     'https://api1.aureosolutions.tech' 
    
 ]
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-      'https://:b7e1-171-76-87-23.ngrok-free'  # Include this if applicable
+       'https://api1.aureosolutions.tech' # Include this if applicable
 ]
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
       'b7e1-171-76-87-23.ngrok-free.app',
-        '159.89.200.152'  # You can include 'localhost' too, just in case
+        '159.89.200.152' 
+         'api1.aureosolutions' # You can include 'localhost' too, just in case
 ]
 
 
