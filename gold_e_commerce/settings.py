@@ -33,7 +33,8 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_ORIGINS = [
      "http://localhost:5173", 
      "127.0.0.1"
-     'https://:b7e1-171-76-87-23.ngrok-free'
+     'https://:b7e1-171-76-87-23.ngrok-free',
+     'http://159.89.200.152'
    
 ]
 CSRF_TRUSTED_ORIGINS = [
@@ -45,7 +46,8 @@ CSRF_TRUSTED_ORIGINS = [
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-      'b7e1-171-76-87-23.ngrok-free.app'  # You can include 'localhost' too, just in case
+      'b7e1-171-76-87-23.ngrok-free.app',
+        '159.89.200.152'  # You can include 'localhost' too, just in case
 ]
 
 
