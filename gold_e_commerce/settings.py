@@ -47,9 +47,7 @@ CSRF_TRUSTED_ORIGINS = [
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-      'b7e1-171-76-87-23.ngrok-free.app',
-        '159.89.200.152' 
-         'api1.aureosolutions' # You can include 'localhost' too, just in case
+         'api1.aureosolutions.tech' # You can include 'localhost' too, just in case
 ]
 
 
